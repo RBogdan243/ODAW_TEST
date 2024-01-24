@@ -1,18 +1,18 @@
-﻿using Backend.Data;
-using Backend.Models.Base;
+﻿using ODAW_TEST.Data;
+using ODAW_TEST.Models.Base;
 using Microsoft.EntityFrameworkCore;
 
-namespace Backend.Repositories.GenericRepository
+namespace ODAW_TEST.Repositories.GenericRepository
 {
     public class GenericRepository<TEntity>: IGenericRepository<TEntity> where TEntity : BaseEntity
     {
-        protected readonly BackendContext _backendContext;
+        protected readonly ODAWContext _odawContext;
         protected readonly DbSet<TEntity> _table;
 
-        public GenericRepository(BackendContext backendContext)
+        public GenericRepository(ODAWContext odawContext)
         {
-            _backendContext = backendContext;
-            _table = _backendContext.Set<TEntity>();
+            _odawContext = odawContext;
+            _table = _odawContext.Set<TEntity>();
         }
 
         // Get all
@@ -85,11 +85,11 @@ namespace Backend.Repositories.GenericRepository
         // Save
         public bool Save()
         {
-            return _backendContext.SaveChanges() > 0;
+            return _odawContext.SaveChanges() > 0;
         }
         public async Task<bool> SaveAsync()
         {
-            return await _backendContext.SaveChangesAsync() > 0;
+            return await _odawContext.SaveChangesAsync() > 0;
         }
 
     }

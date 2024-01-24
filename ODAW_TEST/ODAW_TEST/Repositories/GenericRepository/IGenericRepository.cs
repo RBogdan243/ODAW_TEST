@@ -1,6 +1,6 @@
-﻿using Backend.Models.Base;
+﻿using ODAW_TEST.Models.Base;
 
-namespace Backend.Repositories.GenericRepository
+namespace ODAW_TEST.Repositories.GenericRepository
 {
     public interface IGenericRepository<TEntity> where TEntity : BaseEntity
     {

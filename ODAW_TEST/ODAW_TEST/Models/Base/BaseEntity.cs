@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace Backend.Models.Base
+namespace ODAW_TEST.Models.Base
 {
     public class BaseEntity: IBaseEntity
     {

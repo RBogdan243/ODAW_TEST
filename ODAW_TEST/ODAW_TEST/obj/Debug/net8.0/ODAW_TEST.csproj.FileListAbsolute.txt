@@ -144,3 +144,4 @@ D:\OneDrive\Desktop\Opţional_Lab\.NET\ODAW_TEST\ODAW_TEST\ODAW_TEST\obj\Debug\n
 D:\OneDrive\Desktop\Opţional_Lab\.NET\ODAW_TEST\ODAW_TEST\ODAW_TEST\obj\Debug\net8.0\ODAW_TEST.pdb
 D:\OneDrive\Desktop\Opţional_Lab\.NET\ODAW_TEST\ODAW_TEST\ODAW_TEST\obj\Debug\net8.0\ODAW_TEST.genruntimeconfig.cache
 D:\OneDrive\Desktop\Opţional_Lab\.NET\ODAW_TEST\ODAW_TEST\ODAW_TEST\obj\Debug\net8.0\ref\ODAW_TEST.dll
+D:\OneDrive\Desktop\Opţional_Lab\.NET\ODAW_TEST\ODAW_TEST\ODAW_TEST\obj\Debug\net8.0\ODAW_TEST.sourcelink.json

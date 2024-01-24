@@ -1,4 +1,4 @@
-﻿namespace Backend.Models.Base
+﻿namespace ODAW_TEST.Models.Base
 {
     public interface IBaseEntity
     {

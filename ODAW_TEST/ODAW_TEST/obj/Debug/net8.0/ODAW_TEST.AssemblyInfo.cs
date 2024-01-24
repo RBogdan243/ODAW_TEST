@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ODAW_TEST")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42bc370db2465b287d03e1d5ba1f77d65a7108f5")]
 [assembly: System.Reflection.AssemblyProductAttribute("ODAW_TEST")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ODAW_TEST")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

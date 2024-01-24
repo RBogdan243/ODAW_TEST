@@ -8,7 +8,7 @@ export function getBaseUrl() {
 }
 
 const providers = [
-  { provide: 'https://localhost:7146/api', useFactory: getBaseUrl, deps: [] }
+  { provide: 'https://localhost:7162/api', useFactory: getBaseUrl, deps: [] }
 ];
 
 platformBrowserDynamic(providers).bootstrapModule(AppModule)
