@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ODAW_TEST.props" />
+</Project>
