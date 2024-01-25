@@ -1,0 +1,47 @@
+<div>
+  <h1>AddData forms</h1>
+  <p>Adauga Materie + Profesor:</p>
+  <form [formGroup]="profesorForm">
+    <input formControlName="Nume" placeholder="Nume Prof" type="text">
+    <input formControlName="Prenume" placeholder="Prenume Prof" type="text">
+    <input formControlName="Tip_Profesor" placeholder="Tip Profesor" type="text">
+    <input formControlName="Salariu" placeholder="Salariu" type="number">
+  </form>
+  <form [formGroup]="materieForm">
+    <input formControlName="Nume" placeholder="Nume Materie" type="text">
+    <input formControlName="Descriere" placeholder="Descriere Materie" type="text">
+  </form>
+  <div>
+    <button (click)="CreateMat()"> Submit</button>
+  </div>
+  <p>Adauga Profesor Doar:</p>
+  <form [formGroup]="profesorForm">
+    <input formControlName="Nume" placeholder="Nume Prof" type="text">
+    <input formControlName="Prenume" placeholder="Prenume Prof" type="text">
+    <input formControlName="Tip_Profesor" placeholder="Tip Profesor" type="text">
+    <input formControlName="Salariu" placeholder="Salariu" type="number">
+  </form>
+  <form [formGroup]="materieForm">
+    <input formControlName="Id" placeholder="Id Materie" type="text">
+  </form>
+  <div>
+    <button (click)="CreateProf()"> Add</button>
+  </div>
+  <p>Sterge Profesor:</p>
+  <form [formGroup]="profesorForm">
+    <input formControlName="Id" placeholder="Id Prof" type="text">
+  </form>
+  <div>
+    <button (click)="DeleteProf()"> Delete</button>
+  </div>
+  <p>Sterge Materie:</p>
+  <form [formGroup]="materieForm">
+    <input formControlName="Id" placeholder="Id Prof" type="text">
+  </form>
+  <div>
+    <button (click)="DeleteMat()"> Eliminate</button>
+  </div>
+  <div>
+    <p>{{ message }}</p>
+  </div>
+</div>
